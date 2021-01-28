@@ -1,0 +1,38 @@
+{
+  "name": "floating-shoe",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@react-three/drei": "^2.2.18",
+    "drei": "2.2.12",
+    "immer": "^8.0.1",
+    "react": "17.0.1",
+    "react-colorful": "4.4.4",
+    "react-dom": "17.0.1",
+    "react-redux": "^7.2.2",
+    "react-scripts": "4.0.1",
+    "react-three-fiber": "5.3.10",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "three": "0.123.0",
+    "valtio": "0.4.8"
+  },
+  "devDependencies": {
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
