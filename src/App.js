@@ -8,11 +8,6 @@ import { store } from "./redux/store"
 import { Shoe } from "./components/Shoe"
 import { Picker } from "./components/Picker"
 
-const getFullPath = (filename) => {
-  const base = window.location.origin + window.location.pathname
-  return `${base}/${filename}`
-}
-
 export default function App() {
   return (
     <>
@@ -23,7 +18,7 @@ export default function App() {
           <Provider store={store}>
             <Shoe />
           </Provider>
-          <Environment files={getFullPath("royal_esplanade_1k.hdr")} />
+          <Environment files="resources/royal_esplanade_1k.hdr" />
           <ContactShadows rotation-x={Math.PI / 2} position={[0, -0.8, 0]} opacity={0.25} width={10} height={10} blur={2} far={1} />
         </React.Suspense>
         <OrbitControls minPolarAngle={Math.PI / 2} maxPolarAngle={Math.PI / 2} enableZoom={true} enablePan={false} />
