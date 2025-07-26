@@ -18,7 +18,7 @@ export default function App() {
           <Provider store={store}>
             <Shoe />
           </Provider>
-          <Environment files={`${process.env.PUBLIC_URL}/royal_esplanade_1k.hdr`} />
+          <Environment files="/royal_esplanade_1k.hdr" />
           <ContactShadows rotation-x={Math.PI / 2} position={[0, -0.8, 0]} opacity={0.25} width={10} height={10} blur={2} far={1} />
         </React.Suspense>
         <OrbitControls minPolarAngle={Math.PI / 2} maxPolarAngle={Math.PI / 2} enableZoom={true} enablePan={false} />
