@@ -1,8 +1,7 @@
 ![](jumbo.jpg)
 
-    npm install
-    npm start
+# 👟 3D Shoe
 
-https://solteax.github.io/3d-shoe/
+A small primer on using GLTF models on the web — showcasing how to load and manipulate them as dynamic assets.
 
-This is a small primer on how to use GLTF models on the web, specifically how to use them as dynamic assets.
+🔗 [Live demo](https://solteax.github.io/3d-shoe/)
